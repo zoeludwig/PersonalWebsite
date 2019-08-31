@@ -1,0 +1,112 @@
+.flexbox{
+  align-content: center;
+  padding: 200px;
+}
+h1 {
+  text-align: center;
+  font-style: normal;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+body {
+  background-color: #2C3539;
+}
+
+p {
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+p a{
+  color:#ADD8E6;
+  font-weight: normal;
+  text-decoration: none;
+}
+p span {
+    display: inline;
+    padding:5px;
+}
+
+.about-me{
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
+  padding: 2px;
+}
+
+.about-me-container{
+  padding: 1px;
+  width: auto;
+  justify-content:center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mouseover-container{
+  padding: 15px;
+  display: flex;
+  justify-content:space-around;
+}
+.city {
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px;
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+}
+
+.Zoe, .city, .about-me {
+  color:white;
+}
+
+.Zoe {
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+}
+
+.cities{
+  display: flex;
+  justify-content: space-between;
+}
+
+.lines{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.emoji {
+  opacity: 0;
+  display: none;
+}
+
+h1:hover + .emoji {
+  opacity: 1;
+  transition: opacity 0.5s linear 0s;
+  display: inline-flex;
+  font-family: monospace;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.city:hover + .emoji, .Zoe:hover + .emoji, .about-me:hover + .emoji {
+  opacity: 1;
+  transition: opacity 0.5s linear 0s;
+  display: inline-flex;
+  font-family: monospace;
+  font-size: 18px;
+  justify-content: space-between;
+
+
+}
