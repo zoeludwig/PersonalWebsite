@@ -1,7 +1,9 @@
 .flexbox{
   align-content: center;
-  padding: 200px;
+  padding-top: 200px
 }
+
+
 h1 {
   text-align: center;
   font-style: normal;
@@ -9,20 +11,37 @@ h1 {
   font-size: 24px;
 }
 
+
+button{
+  height: 50px;
+  width:240px;
+  color: #EDF5E1;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color:#379683;
+  border-color:#05386B;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 10px;
+}
+
 body {
-  background-color: #2C3539;
+  background-color: #5CDB95;
 }
 
 p {
   text-align: center;
   font-family: monospace;
   font-size: 18px;
-  color: white;
+
+  color: #379683;
+
   font-weight: bold;
 }
 
 p a{
-  color:#ADD8E6;
+
+  color:#05386B;
   font-weight: normal;
   text-decoration: none;
 }
@@ -63,7 +82,7 @@ p span {
 }
 
 .Zoe, .city, .about-me {
-  color:white;
+  color:#EDF5E1;
 }
 
 .Zoe {
@@ -107,6 +126,23 @@ h1:hover + .emoji {
   font-family: monospace;
   font-size: 18px;
   justify-content: space-between;
+}
 
+.randomdoggo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.randomImageContainer{
+  width: 100px;
+  height: auto;
+}
+
+img {
+  margin: 0 auto;
+  width: 350px;
 
 }
